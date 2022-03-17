@@ -253,14 +253,13 @@ private extension NDRangeBarView {
     func createThumbLayer() -> NDRangeViewThumbLayer {
         let l = NDRangeViewThumbLayer()
         l.layerDelegate = self
-        l.contents = UIScreen.main.scale
+        l.contentsScale = UIScreen.main.scale
         
         return l
     }
     
     func createTextLayer() -> CATextLayer {
         let l = CATextLayer()
-        l.contents = UIScreen.main.scale
         l.contentsScale = UIScreen.main.scale
         l.alignmentMode = .center
         
