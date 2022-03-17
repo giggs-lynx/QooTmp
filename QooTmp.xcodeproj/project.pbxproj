@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D329F7327DB471900BFD7D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D329F7227DB471900BFD7D0 /* Main.storyboard */; };
 		3DB9FC5B271FF585003E5520 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB9FC5A271FF585003E5520 /* AppDelegate.swift */; };
 		3DB9FC5D271FF585003E5520 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB9FC5C271FF585003E5520 /* SceneDelegate.swift */; };
 		3DB9FC5F271FF585003E5520 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB9FC5E271FF585003E5520 /* ViewController.swift */; };
-		3DB9FC62271FF585003E5520 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DB9FC60271FF585003E5520 /* Main.storyboard */; };
 		3DB9FC64271FF58B003E5520 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DB9FC63271FF58B003E5520 /* Assets.xcassets */; };
 		3DB9FC67271FF58B003E5520 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DB9FC65271FF58B003E5520 /* LaunchScreen.storyboard */; };
 		3DB9FC72271FF58B003E5520 /* QooTmpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB9FC71271FF58B003E5520 /* QooTmpTests.swift */; };
 		3DB9FC7D271FF58B003E5520 /* QooTmpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB9FC7C271FF58B003E5520 /* QooTmpUITests.swift */; };
+		3DF9AC5027DEF11C0090BD8F /* NDRangeBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF9AC4F27DEF11C0090BD8F /* NDRangeBarView.swift */; };
+		3DF9AC5627DF41F20090BD8F /* Exts.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF9AC5527DF41F20090BD8F /* Exts.swift.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D329F7227DB471900BFD7D0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		3DB9FC57271FF585003E5520 /* QooTmp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QooTmp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DB9FC5A271FF585003E5520 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DB9FC5C271FF585003E5520 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3DB9FC5E271FF585003E5520 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3DB9FC61271FF585003E5520 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3DB9FC63271FF58B003E5520 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DB9FC66271FF58B003E5520 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3DB9FC68271FF58B003E5520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +51,8 @@
 		3DB9FC78271FF58B003E5520 /* QooTmpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QooTmpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DB9FC7C271FF58B003E5520 /* QooTmpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QooTmpUITests.swift; sourceTree = "<group>"; };
 		3DB9FC7E271FF58B003E5520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DF9AC4F27DEF11C0090BD8F /* NDRangeBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDRangeBarView.swift; sourceTree = "<group>"; };
+		3DF9AC5527DF41F20090BD8F /* Exts.swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exts.swift.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +106,9 @@
 				3DB9FC5A271FF585003E5520 /* AppDelegate.swift */,
 				3DB9FC5C271FF585003E5520 /* SceneDelegate.swift */,
 				3DB9FC5E271FF585003E5520 /* ViewController.swift */,
-				3DB9FC60271FF585003E5520 /* Main.storyboard */,
+				3DF9AC4F27DEF11C0090BD8F /* NDRangeBarView.swift */,
+				3DF9AC5527DF41F20090BD8F /* Exts.swift.swift */,
+				3D329F7227DB471900BFD7D0 /* Main.storyboard */,
 				3DB9FC63271FF58B003E5520 /* Assets.xcassets */,
 				3DB9FC65271FF58B003E5520 /* LaunchScreen.storyboard */,
 				3DB9FC68271FF58B003E5520 /* Info.plist */,
@@ -138,12 +144,15 @@
 				3DB9FC53271FF585003E5520 /* Sources */,
 				3DB9FC54271FF585003E5520 /* Frameworks */,
 				3DB9FC55271FF585003E5520 /* Resources */,
+				3DB6791327859C8600A9BFA1 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = QooTmp;
+			packageProductDependencies = (
+			);
 			productName = QooTmp;
 			productReference = 3DB9FC57271FF585003E5520 /* QooTmp.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +224,8 @@
 				Base,
 			);
 			mainGroup = 3DB9FC4E271FF585003E5520;
+			packageReferences = (
+			);
 			productRefGroup = 3DB9FC58271FF585003E5520 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,7 +244,7 @@
 			files = (
 				3DB9FC67271FF58B003E5520 /* LaunchScreen.storyboard in Resources */,
 				3DB9FC64271FF58B003E5520 /* Assets.xcassets in Resources */,
-				3DB9FC62271FF585003E5520 /* Main.storyboard in Resources */,
+				3D329F7327DB471900BFD7D0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +264,26 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3DB6791327859C8600A9BFA1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\necho \"---------- THE PRINT SCRIPT ----------\"\necho ${GCC_PREPROCESSOR_DEFINITIONS}\neval ${GCC_PREPROCESSOR_DEFINITIONS}\necho \"TEST_KEY = ${TEST_KEY}\"\necho \"DEBUG = ${DEBUG}\"\necho \"TEST_ZZZ = ${TEST_ZZZ}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3DB9FC53271FF585003E5520 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +292,8 @@
 				3DB9FC5F271FF585003E5520 /* ViewController.swift in Sources */,
 				3DB9FC5B271FF585003E5520 /* AppDelegate.swift in Sources */,
 				3DB9FC5D271FF585003E5520 /* SceneDelegate.swift in Sources */,
+				3DF9AC5627DF41F20090BD8F /* Exts.swift.swift in Sources */,
+				3DF9AC5027DEF11C0090BD8F /* NDRangeBarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +329,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3DB9FC60271FF585003E5520 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3DB9FC61271FF585003E5520 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3DB9FC65271FF58B003E5520 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -359,6 +384,8 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
+					"TEST_KEY=1",
+					"TEST_ZZZ=3",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -366,7 +393,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +448,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

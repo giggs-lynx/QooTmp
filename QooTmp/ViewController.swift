@@ -1,10 +1,3 @@
-//
-//  ViewController.swift
-//  QooTmp
-//
-//  Created by giggs on 2021/10/20.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
