@@ -206,11 +206,11 @@ private extension NDRangeBarView {
 private extension NDRangeBarView {
     
     var valueWidth: CGFloat {
-        bounds.width - thumbWidth
+        bounds.width - (clipsToBounds ? thumbWidth : 0.0)
     }
     
     var thumbXOffset: CGFloat {
-        thumbWidth * 0.5
+        clipsToBounds ? (thumbWidth * 0.5) : 0.0
     }
     
     var lowerX: CGFloat {

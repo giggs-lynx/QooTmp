@@ -22,13 +22,14 @@
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N5u-oW-a1N" customClass="NDRangeBarView" customModule="QooTmp" customModuleProvider="target">
                                 <rect key="frame" x="16" y="589" width="343" height="58"/>
+                                <color key="backgroundColor" systemColor="systemTealColor"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="textPaddingFromTrack">
                                         <real key="value" value="8"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="string" keyPath="fontName" value="Roboto-Medium"/>
                                     <userDefinedRuntimeAttribute type="number" keyPath="lowerValue">
-                                        <real key="value" value="30"/>
+                                        <real key="value" value="0.0"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="thumbBorderColor">
                                         <color key="value" systemColor="systemGreenColor"/>
@@ -46,21 +47,78 @@
                                         <color key="value" systemColor="systemPurpleColor"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="upperValue">
-                                        <real key="value" value="95"/>
+                                        <real key="value" value="100"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="lowerTextPattern" value="Current: %.2f %%"/>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="upperTextPattern" value="Target: %.2f %%"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="lowerTextPattern" value="%.f"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="upperTextPattern" value="%.f"/>
                                     <userDefinedRuntimeAttribute type="color" keyPath="trackFillStartColor">
-                                        <color key="value" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="value" systemColor="systemYellowColor"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="trackFillEndColor">
                                         <color key="value" systemColor="systemYellowColor"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="maxValue">
-                                        <real key="value" value="40000"/>
+                                        <real key="value" value="20000"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
                                         <real key="value" value="11"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="thumbInsetYFromTrack">
+                                        <real key="value" value="6"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="fontColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c8W-wo-5sJ" customClass="NDRangeBarView" customModule="QooTmp" customModuleProvider="target">
+                                <rect key="frame" x="16" y="304.5" width="343" height="58"/>
+                                <color key="backgroundColor" systemColor="systemTealColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="textPaddingFromTrack">
+                                        <real key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontName" value="Roboto-Medium"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="lowerValue">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="thumbBorderColor">
+                                        <color key="value" systemColor="systemGreenColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="thumbFillColor">
+                                        <color key="value" systemColor="systemIndigoColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="thumbWidth">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="trackerBackgroundColor">
+                                        <color key="value" systemColor="systemTealColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="trackerHighlightColor">
+                                        <color key="value" systemColor="systemPurpleColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="upperValue">
+                                        <real key="value" value="100"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="lowerTextPattern" value="%.f"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="upperTextPattern" value="%.f"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="trackFillStartColor">
+                                        <color key="value" systemColor="systemYellowColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="trackFillEndColor">
+                                        <color key="value" systemColor="systemYellowColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="maxValue">
+                                        <real key="value" value="20000"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                        <real key="value" value="11"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="thumbInsetYFromTrack">
+                                        <real key="value" value="6"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="fontColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
@@ -69,10 +127,13 @@
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="FNV-gP-mMr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="8ld-ZM-ak9"/>
+                            <constraint firstItem="c8W-wo-5sJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Daa-ZF-If5"/>
                             <constraint firstItem="N5u-oW-a1N" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="ISU-cQ-FSl"/>
                             <constraint firstItem="FNV-gP-mMr" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="LVQ-PA-K50"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="c8W-wo-5sJ" secondAttribute="trailing" constant="16" id="M2D-mg-GgL"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="N5u-oW-a1N" secondAttribute="bottom" constant="20" id="Que-oT-Xma"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FNV-gP-mMr" secondAttribute="trailing" constant="16" id="Yff-aM-Xtw"/>
+                            <constraint firstItem="c8W-wo-5sJ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="rSj-ED-Hzc"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="N5u-oW-a1N" secondAttribute="trailing" constant="16" id="ugj-Um-cFh"/>
                         </constraints>
                     </view>
@@ -87,6 +148,9 @@
             <size key="intrinsicContentSize" width="-1" height="58.25390625"/>
         </designable>
         <designable name="N5u-oW-a1N">
+            <size key="intrinsicContentSize" width="-1" height="58.25390625"/>
+        </designable>
+        <designable name="c8W-wo-5sJ">
             <size key="intrinsicContentSize" width="-1" height="58.25390625"/>
         </designable>
     </designables>
