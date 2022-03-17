@@ -261,6 +261,7 @@ private extension NDRangeBarView {
     func createTextLayer() -> CATextLayer {
         let l = CATextLayer()
         l.contents = UIScreen.main.scale
+        l.contentsScale = UIScreen.main.scale
         l.alignmentMode = .center
         
         return l
